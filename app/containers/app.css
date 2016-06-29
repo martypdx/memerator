@@ -1,3 +1,40 @@
 .container {
     
 }
+
+.imageContainer {
+	position: relative;
+	display: inline-block;
+	border: 1px solid #aaa;
+}
+
+.inputs {
+	position: absolute;
+	right: 0;
+	width: 200px;
+}
+
+.top, .title, .author {
+	position: absolute;
+	text-align: center;
+}
+
+.top {
+	top: 15px;
+	left: 0;
+	right: 0;
+	font-style: italic;
+}
+
+.title {
+	top: 420px;
+	left: 30px;
+	right: 30px;
+	font-size: 68px;
+}
+
+.author {
+	right: 30px;
+	bottom: 30px;
+	font-style: italic;
+}
